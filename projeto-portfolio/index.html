@@ -7,13 +7,6 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="shortcut icon" href="favicon.svg" type="image/svg">
     <script src="https://kit.fontawesome.com/62c8dbee79.js" crossorigin="anonymous"></script>
-    media screen and (min-width:768px ){
-  #skill-container{
-    grid-template-columns: 3fr 1fr;
-  }
-  
-}
-    </style>
 </head>
 <body>
     <header>
@@ -50,78 +43,81 @@
            </article> <!--FIM do article video-->
 
            <article id="skills">
-                <h2> <i class="fa-solid fa-brain"></i>Minhas skills</h2>
-                <div id="skill-container">
-                    <div class="item">
-                        <div class="info">
-                            <span class="nome">
-                               <i class="fa-solid fa-code"></i> HTML5
-                            </span>
-                            <span class="porcent">
-                                90%
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="barra">
-                    <div class="progresso" 
-                    style="width: 90%;"></div>
-                </div>
-                <div id="skill-container">
-                    <div class="item">
-                        <div class="info">
-                            <span class="nome">
-                               <i class="fa-solid fa-code"></i> CSS3
-                            </span>
-                            <span class="porcent">
-                                90%
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="barra">
-                    <div class="progresso" 
-                    style="width: 90%;"></div>
-                </div>
+    <h2> <i class="fa-solid fa-brain"></i>Minhas skills</h2>
+    
+    <div id="skill-container">
 
-                <div id="skill-container">
-                    <div class="item">
-                        <div class="info">
-                            <span class="nome">
-                               <i class="fa-solid fa-code"></i> JavaScript
-                            </span>
-                            <span class="porcent">
-                                60%
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="barra">
-                    <div class="progresso" 
-                    style="width: 60%;"></div>
-                </div>
+        <div class="skill-item">
+            <div class="info">
+                <span class="nome"><i class="fa-solid fa-code"></i> HTML5</span>
+                <span class="porcent">90%</span>
+            </div>
+            <div class="barra">
+                <div class="progresso" style="width: 90%;"></div>
+            </div>
+        </div>
 
-                <div id="skill-container">
-                    <div class="item">
-                        <div class="info">
-                            <span class="nome">
-                               <i class="fa-solid fa-code"></i> PHP
-                            </span>
-                            <span class="porcent">
-                                90%
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="barra">
-                    <div class="progresso" 
-                    style="width: 90%;"></div>
-                </div>
-           </article> <!--fim do skills-->
+        <div class="skill-item">
+            <div class="info">
+                <span class="nome"><i class="fa-solid fa-code"></i> CSS3</span>
+                <span class="porcent">90%</span>
+            </div>
+            <div class="barra">
+                <div class="progresso" style="width: 90%;"></div>
+            </div>
+        </div>
+
+        <div class="skill-item">
+            <div class="info">
+                <span class="nome"><i class="fa-solid fa-code"></i> JavaScript</span>
+                <span class="porcent">60%</span>
+            </div>
+            <div class="barra">
+                <div class="progresso" style="width: 60%;"></div>
+            </div>
+        </div>
+
+        <div class="skill-item">
+            <div class="info">
+                <span class="nome"><i class="fa-solid fa-code"></i> PHP</span>
+                <span class="porcent">90%</span>
+            </div>
+            <div class="barra">
+                <div class="progresso" style="width: 90%;"></div>
+            </div>
+        </div>
+
+    </div> <!-- FIM DO SKILL-CONTAINER -->
+</article>
 
            <article id="formacao">
-                <h2> <i class="fa-solid fa-graduation-cap"></i>Formações</h2>
-           </article> <!--fim da formaçao-->
+    <h2><i class="fa-solid fa-graduation-cap"></i>Formações</h2>
+    
+    <!-- UM ÚNICO CONTAINER PAI ABRAÇANDO TODOS OS CURSOS -->
+    <div id="formacao-container">
+
+        <div class="curso">
+            <p class="periodo">1991-1994</p>
+            <h3 class="instituicao">Escola Técnica Carioca</h3>
+            <p class="titulacao">Técnico em Informática</p>
+        </div>
+
+        <div class="curso">
+            <p class="periodo">1995-2000</p>
+            <h3 class="instituicao">Instituto Superior em Tecnologia</h3>
+            <p class="titulacao">Bacharelado em Ciência da Computação</p>        
+        </div>
+
+        <div class="curso">
+            <p class="periodo">1998-2000</p>
+            <h3 class="instituicao">Centro de Graduação de Professores</h3>
+            <p class="titulacao">Licenciatura em Informática</p>
+        </div>
+
+    </div> <!-- FIM DO FORMACAO-CONTAINER -->
+
+    
+</article> <!-- fim da formaçao -->
 
            <article id="projetos">
                 <h2> <i class="fa-solid fa-trowel-bricks"></i>Projetos</h2>
